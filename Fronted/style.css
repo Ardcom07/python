@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/fondo.avif");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(197, 197, 197, 0.5);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.capa-uno{
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: rgba(84, 233, 111, 0.5);
+    position: relative;
+}
+
+.capa-form{
+    width: 40%;
+    height: 300px;
+    float: left;
+    background-color: rgb(109, 130, 8);
+    position: relative;
+}
+
+.img-slider{
+    width: auto;
+    height: 40%;
+    border-radius: 20px;
+    margin-top: 5%;
+    transition: 300ms;
+    float: left;
+    position: absolute;
+}
+
+.img-slider1{
+    transform: rotate(-15deg);
+    margin-left: 20%;
+}
+
+.img-slider2{
+    transform: rotate(6deg);
+    margin-left: 40%;
+}
+
+.img-slider3{
+    transform: rotate(-15deg);
+    margin-left: 60%;
+}
+
+.img-slider:hover{
+    transform: rotate(0deg) scale(1.5);
+    margin-left: 30%;
+    z-index: 2;
+    box-shadow: 5px 5px 2px #e0e0e0;
+}
